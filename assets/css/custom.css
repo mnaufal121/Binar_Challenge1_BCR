@@ -1,0 +1,41 @@
+p, .nav-link{
+    font-size: 14px;
+}
+
+header{
+    background-color: #F1F3FF;
+    width: 100%;
+    height: 500px;
+}
+
+header .padding-nav{
+    padding-top: 1.5rem;
+    background-color: #F1F3FF;
+}
+
+header nav .logo{
+    height: 34px;
+    width: 100px;
+    left: 136px;
+    background-color: #0D28A6;
+}
+
+header .navbar-nav .nav-item:not(:last-child) .nav-link{
+    margin-right: 32px;
+    color: black;
+}
+
+header .navbar-nav .nav-item:last-child .nav-link{
+    color: white;
+    height: 36px;
+    width: 81px;
+    border-radius: 2px;
+    padding: 8px 12px;
+    background: #5CB85F;
+    font-weight: 700;
+}
+
+header .navbar-nav .nav-item .nav-link{
+    color: black; 
+    font-family: Helvetica;
+}
