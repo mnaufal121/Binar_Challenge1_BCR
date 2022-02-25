@@ -1,7 +1,9 @@
-p, .nav-link{
+p, .nav-link a{
     font-size: 14px;
     font-family: Helvetica;
 }
+
+/* section header */
 
 header{
     background-color: #F1F3FF;
@@ -67,4 +69,32 @@ header .hero .btn-hero{
 header .img-hero{
     height: 407px;
     width: 704px;
+}
+
+/* section our service */
+
+.ourservice{
+    margin-top: 104px;
+    background-color: white;
+}
+
+.ourservice .img-service{
+    width: 459px;
+    height: 428px;
+    margin-right: 100px;
+}
+
+.ourservice h2{
+    font-weight: 700;
+    font-family: Helvetica;
+}
+
+.ourservice p{
+    margin-top: 24px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+.ourservice .list-group-item{
+    border: none;
 }
