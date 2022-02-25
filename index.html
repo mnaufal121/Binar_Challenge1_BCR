@@ -8,6 +8,7 @@
     <title>Binar Car Rental</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -124,7 +125,28 @@
     <section class="testimonial">
         <h2>Testimonial</h2>
         <p>Berbagai review positif dari para pelanggan kami</p>
-        <section class="carousel"></section>
+        <div class="swiper testimony">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div>
+                        <img src="assets/img/profil1.png" alt="Foto 1 Testimoni">
+                    </div>
+                    <div class="d-flex">
+                        <img src="assets/img/Star.svg" alt="rating">
+                        <img src="assets/img/Star.svg" alt="rating">
+                        <img src="assets/img/Star.svg" alt="rating">
+                        <img src="assets/img/Star.svg" alt="rating">
+                        <img src="assets/img/Star.svg" alt="rating">
+                    </div>
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod”</p>
+                    <p>John Dee 32, Bromo</p>
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+            </div>
+        </div>
     </section>
 
     <div class="container">
@@ -147,27 +169,27 @@
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text">Apa saja syarat yang dibutuhkan?</p>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">Berapa hari minimal sewa mobil lepas kunci?</p>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">Berapa hari sebelumnya sabaiknya booking sewa mobil?</p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">Apakah Ada biaya antar-jemput?</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">Berapa hari minimal sewa mobil lepas kunci?</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Berapa hari sebelumnya sabaiknya booking sewa mobil?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Apakah Ada biaya antar-jemput?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Bagaimana jika terjadi kecelakaan</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">Bagaimana jika terjadi kecelakaan</p>
-                    </div>
-                </div>           
-            </div>
         </section>
         </section>
     </div>
@@ -214,6 +236,17 @@
         </footer>
     </div>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".testimony", {
+            slidesPerView: 3,
+            spaceBetween: 32,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 
 </html>
