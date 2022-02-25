@@ -1,5 +1,6 @@
 p, .nav-link{
     font-size: 14px;
+    font-family: Helvetica;
 }
 
 header{
@@ -38,4 +39,32 @@ header .navbar-nav .nav-item:last-child .nav-link{
 header .navbar-nav .nav-item .nav-link{
     color: black; 
     font-family: Helvetica;
+}
+
+header .hero{
+    margin-top: 37px;
+}
+
+header .hero h2{
+    font-weight: 700;
+    font-family: Helvetica;
+}
+
+header .hero p{
+    width: 75%;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+header .hero .btn-hero{
+    padding: 8px 12px;
+    background-color: #5CB85F;
+    border: none;
+    font-size: 14px;
+    font-family: Helvetica;
+}
+
+header .img-hero{
+    height: 407px;
+    width: 704px;
 }
