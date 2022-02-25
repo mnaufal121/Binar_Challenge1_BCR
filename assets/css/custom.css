@@ -95,16 +95,29 @@ header .img-hero{
     font-size: 14px;
 }
 
+.ourservice .point-logo{
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.ourservice a{
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 /* section why us */
 
-.whyus .title-whyus{
+.whyus .desc-whyus h2{
     margin-top: 100px;
     font-weight: 700;
     font-size: 24px;
     font-family: Helvetica;
 }
 
-.whyus .description-whyus{
+.whyus .desc-whyus p{
     margin-top: 16px;
     font-weight: 300;
     font-size: 14px;
@@ -134,6 +147,7 @@ header .img-hero{
     font-family: Helvetica;
     font-weight: 300;
     font-size: 14px;
+    line-height: 20px;
 }
 
 /* section testimonial */
@@ -143,15 +157,34 @@ header .img-hero{
     font-family: Helvetica;
     font-weight: 700;
     font-size: 24px;
-    margin-top: 100px;
+    margin-top: 124px;
 }
 
-.testimonial p{
+.testimonial > p{
     text-align: center;
     font-family: Helvetica;
     font-weight: 300;
     font-size: 14px;
     margin-top: 16px;
+}
+
+.testimony .swiper-slide{
+    width: 619px !important;
+    height: 270px;
+    border-radius: 8px;
+    background-color: #F1F3FF;
+}
+
+.testimony .img-testimony{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 46px;
+}
+
+.testimony .text-testiminy{
+    width: 95%;
+    margin-top: 8px;
 }
 /* section pesan */
 
@@ -173,6 +206,7 @@ header .img-hero{
 
 .pesan p{
     margin-top: 16px;
+    margin-bottom: 0px;
     font-family: Helvetica;
     font-weight: 300;
     font-size: 14px;
@@ -188,6 +222,7 @@ header .img-hero{
     font-size: 14px;
     font-family: Helvetica;
     color: #FFFFFF;
+    margin: 52px 514px 64px 514px;
 }
 /* section faq */
 
@@ -212,7 +247,7 @@ header .img-hero{
 }
 
 .faq .card{
-    width: 668px;
+    width: 584px;
     height: 56px;
     border: 1px solid #D4D4D4;
     box-sizing: border-box;
@@ -230,10 +265,45 @@ header .img-hero{
 /* section footer */
 
 .close{
-    margin-top: 418px;
+    margin-top: 150px;
 }
 
-footer .logo{
+footer .profile .list-group-item{
+    border: none;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .menu .list-group-item{
+    border: none;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .title-contacts{
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .contacts .list-group-item{
+    border: none;
+}
+
+footer .cr a{
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .cr .logo{
+    margin-top: 16px;
     height: 34px;
     width: 100px;
     background-color: #0D28A6;
