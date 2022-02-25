@@ -191,4 +191,50 @@ header .img-hero{
 }
 /* section faq */
 
+.faq{
+    margin-top: 100px;
+}
+
+.faq .summary-faq h2{
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-right: 132px;
+}
+
+.faq .summary-faq p{
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 132px;
+}
+
+.faq .card{
+    width: 668px;
+    height: 56px;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.whyus .card .card-body .card-text{
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
 /* section footer */
+
+.close{
+    margin-top: 418px;
+}
+
+footer .logo{
+    height: 34px;
+    width: 100px;
+    background-color: #0D28A6;
+}
